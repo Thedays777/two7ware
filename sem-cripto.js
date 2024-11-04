@@ -235,7 +235,7 @@ function setupMenu() {
             src: 'https://cdn.jsdelivr.net/npm/@widgetbot/crate@3',
             async: true,
             onload: () => {
-                const discEmbed = new Crate({ server: '1286573512831533056', channel: '1286573601687867433',
+                const discEmbed = new Crate({ server: '1189230891810172958', channel: '1189278170009047061',
                     location: ['bottom', 'right'], notifications: true, indicator: true, allChannelNotifications: true,
                     defer: false, color: '#000000'
                 });
@@ -250,7 +250,7 @@ function setupMenu() {
 /* Main Functions */ 
 function setupMain(){
     function spoofQuestion() {
-        const phrases = [ "🔥 Get good, get [Khanware](https://github.com/Niximkk/khanware/)!", "🤍 Made by [@im.nix](https://e-z.bio/sounix).", "☄️ By github.com/Niximkk/khanware/ " ];
+        const phrases = [ "🔥 Feito para você", "🤍 Made by Two7 Leaks", "☄️ By Two7 Leaks" ];
         const originalFetch = window.fetch;
         window.fetch = async function (input, init) {
             let body;
@@ -375,7 +375,7 @@ function setupMain(){
         })
     }
     function changeBannerText() {
-        const phrases = [ "[🌿] Non Skeetless dude.", "[🌿] Khanware on top.", "[🌿] Nix said hello!", "[🌿] God i wish i had Khanware.", "[🌿] Get good get Khanware!", "[🌿] the old khanware.space" ];
+        const phrases = [ "[🔥] Irmandade acima de tudo.", "[🔥] Two7 no topo.", "[👋] Thedays manda um salve!!", "[🗡️] Dente por dente, olo por olho.", "[🌿] Feito para você", "[🌿] Os antigos nos saudam" ];
         setInterval(() => { 
             const greeting = document.querySelector('.stp-animated-banner h2');
             if (greeting&&features.customBanner) greeting.textContent = phrases[Math.floor(Math.random() * phrases.length)];
@@ -412,7 +412,7 @@ loadScript('https://cdn.jsdelivr.net/npm/darkreader@4.9.92/darkreader.min.js', '
 loadCss('https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css', 'toastifyCss');
 loadScript('https://cdn.jsdelivr.net/npm/toastify-js', 'toastifyPlugin')
 .then(async () => {
-    sendToast("🌿 Khanware injetado com sucesso!");
+    sendToast("👿 KhanCript injetado com sucesso!");
     playAudio('https://r2.e-z.host/4d0a0bea-60f8-44d6-9e74-3032a64a9f32/gcelzszy.wav');
     await delay(500);
     sendToast(`⭐ Bem vindo(a) de volta!`);
